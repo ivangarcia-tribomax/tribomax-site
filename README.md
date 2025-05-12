@@ -26,7 +26,7 @@ Engenheiro Mecânico (UnB), pós-graduado em Engenharia Metalúrgica e Confiabil
 Experiência em mineração (Vale, Yamana, AngloGold) com foco em inspeções técnicas, escaneamento 3D e diagnóstico de falhas.
 
 📧 ivan.garcia@tribomax.com.br  
-🔗 [LinkedIn](https://www.linkedin.com/in/ivan-engmec) *(coloque o link real aqui)*
+🔗 [LinkedIn](https://www.linkedin.com/in/ivan-garcia) *(substitua pelo link real se desejar)*
 
 ---
 
