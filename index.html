@@ -7,10 +7,11 @@
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body class="bg-gray-50 text-gray-800">
+  <!-- Cabeçalho -->
   <header class="bg-white shadow-md sticky top-0 z-50">
     <div class="container mx-auto flex justify-between items-center p-4">
       <div class="flex items-center space-x-4">
-        <img src="logo_tribomax.png" alt="Logo TriboMax" class="h-14 w-auto">
+        <img src="logo_tribomax.png" alt="Logo TriboMax" class="h-12 w-auto">
         <h1 class="text-2xl font-bold text-blue-900">TriboMax</h1>
       </div>
       <nav class="space-x-6">
@@ -23,6 +24,7 @@
     </div>
   </header>
 
+  <!-- Início -->
   <section id="inicio" class="bg-blue-900 text-white py-20">
     <div class="container mx-auto text-center px-6">
       <h2 class="text-4xl font-bold mb-4">Engenharia de Alta Performance em Confiabilidade e Tribologia Industrial</h2>
@@ -30,5 +32,75 @@
       <a href="#contato" class="bg-white text-blue-900 font-semibold py-2 px-4 rounded-lg hover:bg-gray-100">Solicite uma Consultoria</a>
     </div>
   </section>
+
+  <!-- Serviços -->
+  <section id="servicos" class="py-16 bg-gray-100">
+    <div class="container mx-auto px-6">
+      <h3 class="text-3xl font-bold text-center mb-10 text-blue-900">Serviços Especializados</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white shadow-md rounded-lg p-6">
+          <h4 class="text-xl font-semibold mb-2">Análise de Desgaste</h4>
+          <p>Inspeções técnicas com escaneamento 3D, engenharia reversa, modelagem de componentes e diagnóstico de falhas operacionais com base em tribologia aplicada.</p>
+        </div>
+        <div class="bg-white shadow-md rounded-lg p-6">
+          <h4 class="text-xl font-semibold mb-2">Engenharia de Confiabilidade</h4>
+          <p>Implantação de estratégias preditivas com FMEA, RCM, análise Weibull e gestão de ativos com foco em disponibilidade e redução de falhas.</p>
+        </div>
+        <div class="bg-white shadow-md rounded-lg p-6">
+          <h4 class="text-xl font-semibold mb-2">Consultoria em Materiais</h4>
+          <p>Seleção de ligas, análise de falhas por fadiga, abrasão ou corrosão, e definição de procedimentos de soldagem para componentes críticos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Produtos -->
+  <section id="produtos" class="py-16">
+    <div class="container mx-auto px-6">
+      <h3 class="text-3xl font-bold text-center mb-10 text-blue-900">Soluções e Produtos</h3>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h4 class="text-xl font-semibold mb-2">Planilha de Confiabilidade</h4>
+          <p>Ferramenta exclusiva com análise de vida útil, MTBF, confiabilidade e distribuição Weibull para aplicações industriais.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h4 class="text-xl font-semibold mb-2">Curso Técnico em Tribologia</h4>
+          <p>Curso prático para engenheiros e técnicos da indústria sobre modos de desgaste, seleção de materiais e análise preditiva.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre -->
+  <section id="sobre" class="bg-blue-50 py-16">
+    <div class="container mx-auto px-6 text-center">
+      <h3 class="text-3xl font-bold text-blue-900 mb-4">Sobre o Eng. Ivan Garcia</h3>
+      <p class="max-w-3xl mx-auto">Sou engenheiro mecânico pela Universidade de Brasília (UnB), com pós-graduação em Engenharia Metalúrgica e em Engenharia de Confiabilidade. Atuo há mais de 20 anos em confiabilidade industrial e análise de desgaste em mineração, com expertise em escaneamento 3D, inspeções técnicas e soluções de engenharia aplicadas à gestão de ativos críticos.</p>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="py-16 bg-gray-100">
+    <div class="container mx-auto px-6">
+      <h3 class="text-3xl font-bold text-center text-blue-900 mb-6">Fale Conosco</h3>
+      <div class="max-w-xl mx-auto">
+        <form class="grid grid-cols-1 gap-6">
+          <input type="text" placeholder="Nome" class="p-3 border rounded-lg" required />
+          <input type="email" placeholder="E-mail" class="p-3 border rounded-lg" required />
+          <textarea placeholder="Mensagem" rows="4" class="p-3 border rounded-lg" required></textarea>
+          <button type="submit" class="bg-blue-900 text-white py-2 px-4 rounded-lg hover:bg-blue-800">Enviar</button>
+        </form>
+        <div class="text-center mt-6">
+          <p class="text-sm text-gray-600">Ou envie diretamente um e-mail para:</p>
+          <a href="mailto:ivan.garcia@tribomax.com.br" class="text-blue-700 font-semibold">ivan.garcia@tribomax.com.br</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="bg-white text-center py-6 border-t">
+    <p class="text-sm text-gray-500">&copy; 2025 TriboMax Engenharia. Todos os direitos reservados.</p>
+  </footer>
 </body>
 </html>
